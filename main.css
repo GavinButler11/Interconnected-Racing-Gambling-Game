@@ -1,0 +1,143 @@
+body
+{
+	margin: 0 auto;
+}
+
+#top {
+    background-image: url("images/background.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 800px;
+	width:1500px;
+    margin: 0 auto;
+}
+
+#course
+{
+	display: none;
+	position: absolute;
+	top: 20px;
+	left: 150px;
+	height: 600px;
+	width:1500px;
+	margin: 0 auto;
+
+	background-image: url("images/background.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center;
+}
+
+#names
+{
+	display: none;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	height: 700px;
+	width: 100px;
+	margin: 0 auto;
+	font-family:arial;
+	color: #f1f3e5;
+	background: #005e20;
+	
+}
+
+
+.runner
+{
+	height: 130px;
+	width: 130px;
+	position: relative;
+}
+
+#login
+{
+	position: relative;
+	top: 10px;
+	left: 75%;
+}
+
+#logout
+{
+	position: relative;
+	top: 10px;
+	left: 75%;
+}
+
+#mainMenu
+{
+	position: relative;
+	top: 100px;
+	left: 75%;
+}
+
+#instructions
+{
+	position: relative;
+	top: 400px;
+	margin-left:250px;
+}
+#myAccount
+{
+	position: relative;
+	top: 360px;
+	margin-left: 600px;
+}
+#leaderboard
+{
+	position: relative;
+	top: 320px;
+	margin-left: 950px;
+}
+
+
+.dialog
+{
+	display:none;
+	margin: 10px;
+}
+
+#btnStart
+{
+	display:none;
+	position: relative;
+	top: 50px;
+	left: 75%;
+	height:80px;
+	width:120px;
+}
+
+
+#LoginTable
+{
+	margin-top: 20px;
+}
+
+.error
+{
+	display: none;
+	color: red;
+	font-size: 120%;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.buttons {
+	margin-left:1500px;
+	margin-top:-80px;
+}
+
+#logo {
+	margin-left:-50px;
+}
+
+#title {
+	font-family:impact;
+	text-shadow: black 2px 2px;
+	color:white;
+	font-size:32px;
+	margin-left:410px;
+	margin-top: -380px;
+}
+
